@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Muli&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Frontend project</title>
+</head>
+<body>
+
+    <header class="headerMoile">
+        <nav>
+            <a href="#menu" class="btnMenu btnMenu_open">
+                <img src="./img/menu.svg" alt="menu">
+            </a>
+
+            <ul id="menu" class="menu">
+                <li class="btnMenu btnMenu_close"><img src="./img/menuClose.svg" alt=""></li>
+
+                <li class="menu-item">
+                    <a href="#" class="menu-item-action">Dashboard</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-item-action">User</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-item-action">Projects</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-item-action">Events</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-item-action">Preferences</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-item-action">Feedback</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-item-action">Suggestions</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <header class="headerDescktop">
+       <nav class="headTop">
+           <ul>
+               <li><a>FRONTEND PROJECT</a></li>
+               <li>
+                   <a href="#">André Ferreira</a>
+                   <div class="headTop-profile"></div>
+               </li>
+           </ul>
+       </nav>
+       <nav class="headLeft">
+            <ul>
+                <li>
+                    <a href="#">Dashboard</a>
+                </li>
+                <li>
+                    <a href="#">User</a>
+                </li>
+                <li>
+                    <a href="#">Projects</a>
+                </li>
+                <li>
+                    <a href="#">Events</a>
+                </li>
+                <li>
+                    <a href="#">Preferences</a>
+                </li>
+                <li>
+                    <a href="#">Feedback</a>
+                </li>
+                <li>
+                    <a href="#">Suggestions</a>
+                </li>
+            </ul>
+       </nav>
+    </header>
+
+    <section>
+        <div class="userInput">
+            <form action="#">
+                <input type="text" placeholder="Title">
+                <input type="text" placeholder="Description">
+                <input type="text" placeholder="Place">
+                <div class="userInput-radio">
+                    <div>
+                        <input type="radio" name="time" id="time"><p>All day</p>
+                    </div>
+                    <div>
+                        <input type="radio" name="time" id="time"><p>Schedule</p>
+                    </div>
+                </div>
+                <div class="userInput-time">
+                    <div>
+                        <input type="number" placeholder="Time-in">
+                    </div>
+                    <div>
+                        <input type="number" placeholder="Time-out">
+                    </div>
+                </div>
+            </form>
+            <button>OK</button>
+        </div>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>

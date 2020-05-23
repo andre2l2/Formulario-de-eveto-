@@ -1,0 +1,61 @@
+section {
+    padding: 20px;
+}
+
+@media (min-width: 390px) {
+    section {
+        width: 400px;
+        max-width: 390px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 18px;
+        margin-top: calc(50vh - 388px / 2);
+    }
+}
+
+.userInput {
+   text-align: center;
+}
+
+.userInput input {
+    width: 80%;
+    height: 30px;
+    font-size: 14px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.userInput button {
+    width: 10em;
+    height: 40px;
+    border: none;
+    background: #5c73f2;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-top: 50px;
+}   
+
+.userInput button:active,
+.userInput button:hover {
+    background: #506aff;
+}
+
+.userInput-time,
+.userInput-radio {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.userInput-radio input {
+    cursor: pointer;
+}
+
+.userInput-time input{
+    width: 100px;
+}

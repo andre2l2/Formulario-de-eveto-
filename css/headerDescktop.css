@@ -1,0 +1,70 @@
+@media (max-width: 500px) {
+    header.headerDescktop {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    .headTop ul{
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.headerDescktop {
+    position: fixed;
+    width: 100vw;
+    height: 0;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.headTop {
+    background: #5c73f2;
+}
+
+.headTop ul {
+    justify-content: space-between;
+}
+
+.headTop li,
+.headTop ul {
+    display: flex;
+}
+
+.headTop a {
+    display: flex;
+    padding: 20px 20px;
+    transition: 0.3s;
+}
+
+.headTop a:hover {
+    background: #50967F;
+}
+
+.headTop-profile {
+    width: 30px;
+    height: 30px;
+    background: black;
+    border-radius: 50%;
+}
+
+.headLeft {
+    background: #5c73f2;
+    width: 20%;
+    height: 100vh;
+    transition: 0.3s;
+}
+
+.headLeft a {
+    display: block;
+    padding: 20px 30px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.headLeft a:hover {
+    background: #50967F;
+}
