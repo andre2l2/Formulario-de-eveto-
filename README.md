@@ -5,18 +5,11 @@
 ______________
 ## Informações: 
 * Os três primeiros campos são obrigatório para uma validação de formulário.
-
-![webPage](img/webPage.png)
-
 * Caso o usuário tenha preferência de entrada e de saída basta marcar o horário de entrada e de seiada com o "Schedule".
-
-![webMobile1](img/webMobile1.png)
-
 * Agora os outros campos como o "All day" diz que o evento será o dia todo e assim não é necessário preencher os campos de entrada e saída.
 
-![webMobile2](img/webMobile2.png)
-___________________
-
+![webPage](./img/webPage.png)
+____
 ## Como rodar em sua maquina
 
 > Procure pelo arquivo "index.html" localizado na raiz do projeto, e abra-o em seu navegador de preferência.
