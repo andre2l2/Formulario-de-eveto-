@@ -2,6 +2,9 @@
     header.headerDescktop {
         display: none;
     }
+    .menuLeft-options {
+        display: none;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -35,36 +38,24 @@
 }
 
 .headTop a {
+    text-align: center;
     display: flex;
-    padding: 20px 20px;
-    transition: 0.3s;
+    padding: 15px 10px;
+    transition: 0.4s;
 }
 
 .headTop a:hover {
-    background: #50967F;
+   color: white;
 }
 
-.headTop-profile {
-    width: 30px;
-    height: 30px;
-    background: black;
+.headTop-name {
+    font-size: 14px;
+}
+
+.headTop-name-profile {
+    width: 20px;
+    height: 20px;
+    border: 1.4px solid black;
     border-radius: 50%;
-}
-
-.headLeft {
-    background: #5c73f2;
-    width: 20%;
-    height: 100vh;
-    transition: 0.3s;
-}
-
-.headLeft a {
-    display: block;
-    padding: 20px 30px;
-    text-align: right;
-    text-transform: uppercase;
-}
-
-.headLeft a:hover {
-    background: #50967F;
+    margin-left: 10px;
 }
