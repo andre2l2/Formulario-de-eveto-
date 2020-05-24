@@ -15,6 +15,18 @@
     }
 }
 
+@media (max-height: 500px) {
+    header.headerDescktop {
+        display: none;
+    }
+    .menuLeft-options {
+        display: none;
+    }
+    .headerMoile {
+        display: flex;
+    }
+}
+
 .headerDescktop {
     position: fixed;
     width: 100vw;
@@ -53,6 +65,7 @@
 }
 
 .headTop-name-profile {
+    background: whitesmoke;
     width: 20px;
     height: 20px;
     border: 1.4px solid black;
