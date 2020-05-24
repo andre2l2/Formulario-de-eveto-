@@ -1,19 +1,19 @@
 @media (min-width: 390px) {
     section {
         display: flex;
-        max-width: 360px;
+        font-size: 18px;
         margin-left: auto;
         margin-right: auto;
-        font-size: 18px;
+        max-width: 360px;
     }
 }
 
 @media (min-width: 500px) {
     section {
+        max-width: 500px;
         position: relative;
         top: 50%;
         transform: translateY(-50%);
-        max-width: 500px;
     }
 }
 
@@ -31,11 +31,18 @@
 }
 
 .menuLeft-options-link a {
+    opacity: 0.6;
     padding: 5px 5px 20px 5px;
+    transition: 0.3s;
 }
 
 .menuLeft-options-link a:hover {
     color: #5c73f2;
+    opacity: 1;
+}
+
+.menuLeft-options-link-regrito a{
+    opacity: 1;
 }
 
 .userInput {
@@ -43,28 +50,28 @@
 }
 
 .userInput input {
-    width: 80%;
-    height: 30px;
-    font-size: 14px;
-    border: 1px solid black;
     border-radius: 5px;
-    margin-bottom: 10px;
-    padding-left: 10px;
+    border: 1px solid black;
     box-shadow: 0 0 0 0;
+    font-size: 14px;
+    height: 30px;
+    margin-bottom: 10px;
     outline: 0;
+    padding-left: 10px;
+    width: 80%;
 }
 
 .userInput button {
-    width: 10em;
-    height: 40px;
-    border: none;
     background: #5c73f2;
     border-radius: 5px;
+    border: none;
     color: black;
-    font-size: 20px;
     cursor: pointer;
-    transition: 0.4s;
+    font-size: 20px;
+    height: 40px;
     margin-top: 50px;
+    transition: 0.4s;
+    width: 10em;
 }   
 
 .userInput button:active,

@@ -5,12 +5,12 @@
 }
 
 .menu {
-    position: absolute;
-    transform: translateX(-100%);
     left: 0;
+    position: absolute;
     top: 0;
-    width: 100%;
+    transform: translateX(-100%);
     transition: 0.3s;
+    width: 100%;
     z-index: 1;
 }
 
@@ -37,9 +37,9 @@
 }
 
 .btnMenu {
-    display: block;
-    background-repeat: no-repeat;
     background-position: 15px center;
+    background-repeat: no-repeat;
+    display: block;
     padding: 25px 20px;
 }
 
