@@ -8,7 +8,7 @@ ______________
 * Caso o usuário tenha preferência de entrada e de saída basta marcar o horário de entrada e de seiada com o "Schedule".
 * Agora os outros campos como o "All day" diz que o evento será o dia todo e assim não é necessário preencher os campos de entrada e saída.
 
-![webPage](./img/webPage.png)
+> ![webPage](./img/webPage.png)
 ____
 ## Como rodar em sua maquina
 
